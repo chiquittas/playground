@@ -1,0 +1,125 @@
+{
+  border: 1px dotted black;
+}
+
+.question {
+  
+    font-size:16px;
+  color: #2E2E2E;
+  margin-bottom:0px;
+  
+}
+.arrow {
+  
+    font-size:16px;
+  color: #009999;
+  margin-bottom:0px;
+  
+}
+h2.quizHeader {
+  
+  font-weight:normal;
+  font-size:25px;
+  color: #009999;
+  line-height: 27px;
+  margin: 24px 0 12px 0;
+  padding: 0 0 4px 0;
+  border-bottom: 1px solid #a2a2a2;
+}
+
+h2.quizScore{
+  
+  font-size:25px;
+  color: #009999;
+}
+
+div.quizAnswers{
+  
+  font-size:16px;
+  color: #424242;
+  padding: 4px 14px 4px 14px;
+  font-style: normal;
+}
+
+label {
+  
+  font-size:14px;
+  color: #424242;
+  vertical-align:top;
+  font-style: normal;
+  padding: 0 0 4px 0;
+}
+
+select.ans {
+  padding: 4px 14px 4px 14px;
+  margin: 0px 14 0px 0;
+  font-size:14px;
+}
+
+input.quizSubmit[type="submit"] {
+  -webkit-background-clip: border-box;
+  -webkit-background-origin: padding-box;
+  -webkit-background-size: auto;
+  -webkit-transition-delay: 0s, 0s;
+  -webkit-transition-duration: 0.2s, 0.2s;
+  -webkit-transition-property: color, background-color;
+  -webkit-transition-timing-function: ease, ease;
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 5px 0px;
+  color: #ffffff;
+  background-color: #ff6666;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  text-transform:uppercase;
+  height:35px;
+  width:85px;
+  border: 1px solid #ff6666;
+  border-radius:5px;
+  
+ }
+
+input.quizReset[type="reset"] {
+  -webkit-background-clip: border-box;
+  -webkit-background-origin: padding-box;
+  -webkit-background-size: auto;
+  -webkit-transition-delay: 0s, 0s;
+  -webkit-transition-duration: 0.2s, 0.2s;
+  -webkit-transition-property: color, background-color;
+  -webkit-transition-timing-function: ease, ease;
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 5px 0px;
+  color: #ffffff;
+  background-color: #ff6666;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  text-transform:uppercase;
+  height:35px;
+  width:85px;
+  border: 1px solid #ff6666;
+  border-radius:5px;
+  display: none;
+  
+ }
+input.quizSubmit[type="submit"]:hover {
+  color: #ffffff;
+  background: #ff5050;
+  text-decoration: none;
+}
+
+table.mytable {
+      border-collapse: separate;
+      border-spacing: 10px; 
+      padding: 5px;
+      
+}
+
+
+
+.submitter {
+    width:85px;
+}
+
+.hide {
+    display:none;
+}
+
